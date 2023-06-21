@@ -7,7 +7,7 @@ import { ChooseAvatarViewComponent } from './choose-avatar-view/choose-avatar-vi
 import { GuestChatViewComponent } from './guest-chat-view/guest-chat-view.component';
 import { ModeratorViewComponent } from './moderator-view/moderator-view.component';
 import { TherapistChatViewComponent } from './therapist-chat-view/therapist-chat-view.component';
-import { WellcomeGuestViewComponent } from './wellcome-guest-view/wellcome-guest-view.component';
+import { WelcomeGuestViewComponent } from './welcome-guest-view/welcome-guest-view.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { WellcomeGuestViewComponent } from './wellcome-guest-view/wellcome-guest
     GuestChatViewComponent,
     ModeratorViewComponent,
     TherapistChatViewComponent,
-    WellcomeGuestViewComponent
+    WelcomeGuestViewComponent
   ],
   imports: [
     BrowserModule,
